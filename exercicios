@@ -1,0 +1,96 @@
+# codigo com os exercicios feitos em algoritmos
+
+#exercicio 1
+
+a = input()
+b = input()
+
+X = a + b
+
+print ("X = %i" % X)
+# codigo acima validado já
+
+c=-10
+d=4
+print(c+d)
+
+e=15
+f=-7
+print(e+f)"""
+
+# exercicio 2
+
+"""pi=3.14159
+r=2.00
+a=pi*r**2
+print(a)"""
+
+"""pi=3.14159
+r=100.64
+a=pi*r**2
+print(a)"""
+
+"""pi=3.14159
+r=150.00
+a=pi*r**2
+print(a)"""
+
+#exercicio 3
+
+"""a=0
+b=0
+SOMA=a+b
+print(SOMA)"""
+
+# exercicio 4
+
+"""a=-30
+b=10
+PROD=a*b
+print(PROD)"""
+
+# exercicio 5(vulgo 1005)
+
+"""import numpy
+a=5.0
+b=7.1
+input = [a,b]
+media = numpy.mean(input)
+print(media)"""
+
+# exercicio 1005( checar novamente)
+a = 10.0
+b = 10.0
+media = (3.5*(a)+7.5*(b)) / 11
+print(media)
+
+
+# exercicio 1006
+a=5.0
+b=6.0
+c=7.0
+if a<=10.0 and b<=10.0 and c<=10.0 :
+ media = (2*(a)+3*(b)+5*(c)) / 10
+ print(media)
+else :
+ print("invalid input")
+
+# exercicio 1007
+a=5
+b=6
+c=7
+d=8
+DIFERENCA = ((a*b)-(c*d))
+print(DIFERENCA)
+
+# exercicio 1008
+
+number=1
+hours=200
+salaryhour = 20.50
+salary = salaryhour * hours
+print("NUMBER = " + str(number))
+print("SALARY = U$"+" "+str(salary))
+
+
+
