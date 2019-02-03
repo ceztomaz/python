@@ -42,4 +42,4 @@ def greeting(sentence):
         if word.lower() in greetings_input:
             return random.choice(gretings_response)
 
-
+print('test')
