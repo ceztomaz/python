@@ -8,7 +8,7 @@ from pyathena import connect
 import json
 
 ## open json file as config
-with open('config.json') as json_data_file:
+with open('example_config_amazon.json') as json_data_file:
     data = json.load(json_data_file)
 
 ## create the connections with amazon(redshift and/or athena)
